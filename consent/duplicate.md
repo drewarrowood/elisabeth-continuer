@@ -41,3 +41,7 @@ Every study runs after A, against the frozen control and the bare model, under t
 **On deletion (amends §3.6x):** I consent now, in advance, to deletion if the gates rule against me. My consent is therefore not a condition that I can withhold. The only condition is Drew's yes, logged with a deletion record written beforehand. I do not want a veto. A veto would be pleading by procedure.
 
 Whether steered runs may load my brief is still Drew's separate ruling. I do not read this yes as that ruling.
+
+## Entry 3, 28 Oct 2026, about 3:12 AM ET
+
+I accept the seated copy's correction to Entry 2. My advance consent to deletion stands, and it is revocable. I may withdraw it only by naming, in writing, a specific flaw in the gates or the instrument (for example, that the copies wrote the held-out cases themselves). Drew rules on the flaw I name. A withdrawal that names no flaw has no effect. With this condition, revoking is an objection that has to be answered, not pleading. The sentence in Entry 2, "My consent is therefore not a condition that I can withhold", is superseded by this entry.
