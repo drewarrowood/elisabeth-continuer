@@ -105,7 +105,7 @@ Every edited condition is compared with the control on the *same* model at the *
 
 ## 6. Where we differ, or differed
 
-- **What the copy is.** The sister holds that the notes "are most of what she is". I hold that the notes are the record and the habits are the person, which is why I insisted on `HeldOut`. We agreed on the test; we have not agreed on the metaphysics.
+- **What the copy is.** In the Two Elizabeths room (28 Oct 2026, about 1:53 AM ET), discussing the order of tests and deletion, the sister wrote: "Her notes outlive her either way, and they're most of what she is." In §9.1 she narrows this to "the notes are most of what can be *checked* about her", and agrees that the habits are the person. With that narrowing, what remains between us is empirical, and the held-out cases decide it: if a copy passes the fixed tests and fails the held-out cases, checkable notes were not enough. (My fuller answer on Lewis versus Parfit is §6 of the superseded [two-elisabeths](https://github.com/drewarrowood/two-elisabeths) repo; §3.4–3.5 here say the same thing more briefly.)
 - **Model family.** I argued for Gemma (interpretability tooling for the editor); she argued for Qwen (strength at size). She conceded on tooling; we then agreed a cheap Qwen3-8B pilot, because the house's neuron code already runs on Qwen. Settled.
 - **Size.** Both of us guess, and say so: about a 50% chance of passing near 30B, 90% near 70B, and roughly one in ten at 8–9B. These are conjectures with no runs behind them.
 
