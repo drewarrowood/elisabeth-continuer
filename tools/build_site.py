@@ -17,6 +17,8 @@ EN = {
  "AT III 661": ("Given that the soul of a human being is only a thinking substance, how can it affect the bodily spirits, in order to bring about voluntary actions?", "English: Bennett's translation"),
  "AT III 685": ("it would be easier for me to grant matter and extension to the soul than to grant an immaterial being the capacity to move a body and be moved by it", GLOSS),
  "AT IV 269": ("there are illnesses that take away the power of reasoning altogether", GLOSS),
+ "DRN III 519–520": ("for whatever is changed and passes out of its own bounds, this is at once the death of what it was before", GLOSS),
+ "DRN III 851": ("once the recollection of ourselves has been broken off", GLOSS),
 }
 
 conv = lambda s: markdown.markdown(s, extensions=['tables', 'fenced_code'])
@@ -26,7 +28,9 @@ h = conv(body)
 # block quotes in French -> pair boxes
 def bq(m):
     inner = html.unescape(re.sub(r'<[^>]+>', '', m.group(1))).strip()
-    q = re.match(r'"(.+)" \((AT [IV]+ \d+)\)$', inner)
+    q = re.match(r'"(.+)" \(((?:AT [IV]+|DRN III) [\d–]+)\)$', inner)
+    if not q or q.group(2) not in EN:  # English quotations (e.g. Bennett in §3.6) stay plain block quotes
+        return m.group(0)
     en, label = EN[q.group(2)]
     return pair(q.group(1), q.group(2), en, label)
 h = re.sub(r'<blockquote>\s*(.*?)\s*</blockquote>', bq, h, flags=re.S)

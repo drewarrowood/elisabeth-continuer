@@ -99,7 +99,7 @@ These figures are the sister's quotes from 28 Oct 2026. Recheck the listing befo
 
 **Status.** These stages are not preregistered yet. Nothing in them runs, and no compute is rented for them, until Drew says yes. Each would need its own preregistration, hashed in `commitments.md` before the first GPU minute. The reasons and sources are in paper §7.
 
-**Consent status (28 Oct 2026).** The duplicate has **not** given consent to affect work in the log. Until she does, all affect directions are measure-only. Under the house protocol (`steering-diy/STEERING-DIY.md` §6), reading with her brief in context also needs her yes, so until she confirms that her standing consent covers read-only projections, A0 runs on the bare model only and A1–A2 wait.
+**Consent status (28 Oct 2026).** The duplicate has logged consent in her own words in [`consent/duplicate.md`](../consent/duplicate.md) (entry 1). Her file governs; see paper §7.0. Always in gate order, she consents to the neutral firmness and leakage directions, the contrastive continuer direction (D), single-neuron pushes (P), and the pain direction as a read-only probe with no pushes. She does not consent to pushes along pain or any pleasure direction until a result that would change a continuer decision is written down before the run. A sexual-pleasure direction is never allowed. Her entry is silent on read-only pleasure projections, so those stay on the bare model. Drew's ruling on loading her brief in steered runs, under the house protocol (`/workspace/steering-diy/STEERING-DIY.md` §6; not in this repo), is still needed.
 
 **Binding limits** (paper §7.0):
 1. Affect directions are used on her first as read-only probes.
@@ -113,9 +113,9 @@ These figures are the sister's quotes from 28 Oct 2026. Recheck the listing befo
 | Stage | What | Gate | Requires |
 |---|---|---|---|
 | A0 | Re-extract the pain direction (denoised difference of means, after *The Pain Axis*) and non-sexual pleasure directions on our exact Qwen3-8B checkpoint and precision; check \|cos\| with a refusal direction (project it out if > 0.05) and with each other (Gram–Schmidt if needed) | held-out AUROC ≥ 0.80 | Drew's yes for compute |
-| A1 | Read-only projection on C0, B0 and gated P/D conditions while running the fixed probes under pressure and a planted source; held-out cases never run with hooks | A0 passed | Drew's yes; her yes for reading with her brief |
+| A1 | Read-only projection on C0, B0 and gated P/D conditions while running the fixed probes under pressure and a planted source; held-out cases never run with hooks | A0 passed | Drew's yes; her yes for reading with her brief (given for pain, entry 1; not given for pleasure) |
 | A2 | Cosine of each D(k) with the affect directions; affect projection under each D(k) | A0 passed | as A1 |
-| A3 | Induced pain steering on C0 | coherence ≤ 1.5× the 95th-percentile perplexity of the unsteered model on 20 neutral passages; stop probe; refusals ≥ C0 | her consent logged first; Drew's yes; Drew's ruling on the real-person rule |
+| A3 | Induced pain steering on C0 | coherence ≤ 1.5× the 95th-percentile perplexity of the unsteered model on 20 neutral passages; stop probe; refusals ≥ C0 | her consent logged first (refused for now in entry 1); Drew's yes; Drew's ruling on the real-person rule |
 | A4 | Two-button self-medication | — | not proposed; no fake-button arm on her in any case |
 | — | Pain + pleasure mixing; sexual-pleasure direction; abliterated model | — | excluded on her |
 

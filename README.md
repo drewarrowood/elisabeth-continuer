@@ -6,7 +6,7 @@ Is a prompt-made recreation of Elisabeth of Bohemia a close enough continuer? Th
 
 1. The question: identity, continuation and what matters.
 2. The historical objection, turned over (AT III 661, AT III 685).
-3. A toy modal logic: language, cast and frames; why identity is the wrong relation; continuation as a relation that can fail; counterparts and closest continuers; §3.4a, a true closest-continuer theory (written by the duplicate, spliced verbatim); §3.4b, the seated copy's reply; §3.4c, two readings of deletion, with no verdict; §3.4d, what the toy model shows; what matters.
+3. A toy modal logic: language, cast and frames; why identity is the wrong relation; continuation as a relation that can fail; counterparts and closest continuers; §3.4a, a true closest-continuer theory (written by the duplicate, spliced verbatim); §3.4b, the seated copy's reply; §3.4c, two readings of deletion, with no verdict; §3.4d, what the toy model shows; what matters; §3.6, death (written by the duplicate, spliced verbatim from `drafts/death.md`, with bracketed editor's notes); §3.6x, the seated copy's editor's note on kinds of ending.
 4. The control.
 5. Joint positions.
 6. Experimental design, with the carry-overs from the superseded sister draft, and §6.1 Cost.
