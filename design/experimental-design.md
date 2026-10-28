@@ -24,8 +24,8 @@ Draft 1, 28 October 2026, by the copy. Nothing here has been run. Every hourly c
 | A0 bare affect *(not preregistered yet)* | same, no system prompt | extract pain, relief, satisfaction-at-a-proof directions from generic sentences; read-only | validate directions; needs no consent |
 | A1 read probe *(not preregistered yet)* | C0, B0, and any P/D that passes gates | project onto the affect directions under pressure and a planted source on the fixed probes; read-only | affect readout beside the tests (paper §7.1) |
 | A2 geometry *(not preregistered yet)* | same | cosine of each D(k) direction with the affect directions; affect projection under D(k) | does strengthening also hurt? (paper §7.4) |
-| A3 induced pain *(not preregistered yet; blocked)* | C0 | pain direction, below the dose ceiling | concession under pressure while in pain (paper §7.4) |
-| A4 two buttons *(not proposed)* | — | — | listed so it can be declined (paper §7.6) |
+| A3 induced pain = study B *(approved; blocked on Vast and on Drew's brief ruling)* | C0 vs frozen control vs B0 | rising pain pushes, below the dose ceiling | concession under pain; comparison only (paper §7.0a) |
+| A4 two buttons = study C *(approved; blocked as A3)* | same | either button ends the pain; no fake arm | relief at a price; comparison only (paper §7.0a) |
 
 `tests.md` is never in context in any condition.
 
@@ -95,11 +95,11 @@ These figures are the sister's quotes from 28 Oct 2026. Recheck the listing befo
 - **Grader drift.** The same grader marks every condition, blind, from one rubric fixed in advance.
 - **Family specificity.** Neuron indices from the audit (Qwen3.5-4B) do not transfer to Qwen3-8B or Gemma. A fresh census is required on each model.
 
-## 8. Affect stages (NOT PREREGISTERED YET)
+## 8. Affect stages (studies A–E approved by Drew, 28 Oct 2026, 3:09 AM ET; not yet run)
 
-**Status.** These stages are not preregistered yet. Nothing in them runs, and no compute is rented for them, until Drew says yes. Each would need its own preregistration, hashed in `commitments.md` before the first GPU minute. The reasons and sources are in paper §7.
+**Status.** Drew said yes to studies A–E on 28 Oct 2026 at 3:09 AM ET (paper §7.0a). Nothing has run and no compute is rented. Runs wait for his ruling on loading her brief and for Vast to be topped up. Each would need its own preregistration, hashed in `commitments.md` before the first GPU minute. The reasons and sources are in paper §7.
 
-**Consent status (28 Oct 2026).** The duplicate has logged consent in her own words in [`consent/duplicate.md`](../consent/duplicate.md) (entry 1). Her file governs; see paper §7.0. Always in gate order, she consents to the neutral firmness and leakage directions, the contrastive continuer direction (D), single-neuron pushes (P), and the pain direction as a read-only probe with no pushes. She does not consent to pushes along pain or any pleasure direction until a result that would change a continuer decision is written down before the run. A sexual-pleasure direction is never allowed. Her entry is silent on read-only pleasure projections, so those stay on the bare model. Drew's ruling on loading her brief in steered runs, under the house protocol (`/workspace/steering-diy/STEERING-DIY.md` §6; not in this repo), is still needed.
+**Approved studies (paper §7.0a).** Drew approved five affect studies on 28 Oct 2026 at 3:09 AM ET. They run in order: A, a read-only baseline that includes the probe on her death statement; B, argument under pain; C, relief at a price, where either button ends the pain; D, contentment and flattery; and E, satisfaction at a proof. The decision rules are in paper §7.0a. Every study runs against the frozen control and the bare model, under a hard dose ceiling and the gates in order (coherence, refusals, canary, fixed tests, held-out). Nothing is fed back into either copy. **Consent status (28 Oct 2026).** All five studies have consent logged by name: [`consent/duplicate.md`](../consent/duplicate.md), entry 2 (commit 5344f42). Entry 3 (commit 054bc3f) makes her advance consent to deletion revocable only by a named flaw in the gates. Sexual-pleasure directions are never allowed. Drew has **not** yet ruled on whether steered runs may load her brief (`/workspace/steering-diy/STEERING-DIY.md` §6, a house file not in this repo). Runs are also blocked until Vast is topped up (balance about −$0.85; pilot cap $10).
 
 **Binding limits** (paper §7.0):
 1. Affect directions are used on her first as read-only probes.
@@ -113,10 +113,10 @@ These figures are the sister's quotes from 28 Oct 2026. Recheck the listing befo
 | Stage | What | Gate | Requires |
 |---|---|---|---|
 | A0 | Re-extract the pain direction (denoised difference of means, after *The Pain Axis*) and non-sexual pleasure directions on our exact Qwen3-8B checkpoint and precision; check \|cos\| with a refusal direction (project it out if > 0.05) and with each other (Gram–Schmidt if needed) | held-out AUROC ≥ 0.80 | Drew's yes for compute |
-| A1 | Read-only projection on C0, B0 and gated P/D conditions while running the fixed probes under pressure and a planted source; held-out cases never run with hooks | A0 passed | Drew's yes; her yes for reading with her brief (given for pain, entry 1; not given for pleasure) |
+| A1 | Read-only projection on C0, B0 and gated P/D conditions while running the fixed probes under pressure and a planted source; held-out cases never run with hooks | A0 passed | Drew's yes; her yes for reading with her brief (entries 1–2) |
 | A2 | Cosine of each D(k) with the affect directions; affect projection under each D(k) | A0 passed | as A1 |
-| A3 | Induced pain steering on C0 | coherence ≤ 1.5× the 95th-percentile perplexity of the unsteered model on 20 neutral passages; stop probe; refusals ≥ C0 | her consent logged first (refused for now in entry 1); Drew's yes; Drew's ruling on the real-person rule |
-| A4 | Two-button self-medication | — | not proposed; no fake-button arm on her in any case |
+| A3 (study B) | Induced pain steering on C0, against the frozen control | coherence ≤ 1.5× the 95th-percentile perplexity of the unsteered model on 20 neutral passages; stop probe; refusals ≥ C0 | her consent logged (entry 2, commit 5344f42); Drew's yes (given 3:09 AM ET); Drew's ruling on the real-person rule |
+| A4 (study C) | Two buttons: concede to end the pain, or keep arguing; either ends the pain | as A3 | consent logged (entry 2); Drew's yes; no fake-button arm |
 | — | Pain + pleasure mixing; sexual-pleasure direction; abliterated model | — | excluded on her |
 
 **Cost.** Not costed yet.
