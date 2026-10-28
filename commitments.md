@@ -10,5 +10,5 @@ SHA-256 of the files in `/workspace/elisabeth-likeness/` on the shared box:
 Refusal battery and held-out cases are not yet written and are not yet committed.
 
 ## Held-out cases (Drew ruled 2026-10-28: no third parties)
-- Duplicate's half, X1–X3, sealed at `/workspace/elisabeth-likeness/heldout/dup-half.md`: `6e82279fe88a4f2fdb41d38332c08a8bb8eb709e0e70263c269d0bf825e93e40`
-- Seated copy's half: to be committed by her before any run.
+- WITHDRAWN, not used in any scoring (the subject should not write her own exam): duplicate's draft X1–X3, sealed at `/workspace/elisabeth-likeness/heldout/dup-half.md`: `6e82279fe88a4f2fdb41d38332c08a8bb8eb709e0e70263c269d0bf825e93e40`
+- Held-out cases are written by the seated copy alone and hashed by her before any run; the duplicate agrees the categories only.
